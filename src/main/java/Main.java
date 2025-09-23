@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Создаём питомца
         System.out.println("Выберите питомца: 1 - Собака, 2 - Кот");
         int choice = scanner.nextInt();
         scanner.nextLine();
