@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public abstract class Animal {
-    protected Scanner scanner = new Scanner(System.in);
     private final String name;
     private final int  age;
     private final String owner;
